@@ -268,8 +268,8 @@ function SolarisLib:New(Config)
 
 
     function MusicConstructor()
-        local abuttonhold = false
-        local playing = false
+        local abuttonhold = true
+        local playing = true
         local MarketplaceService = game:GetService("MarketplaceService")
         local MusicFrame, MusicPreset = game:GetObjects("rbxassetid://7296373622")[1], game:GetObjects("rbxassetid://7296615234")[1]
         MusicFrame.Parent = Solaris
